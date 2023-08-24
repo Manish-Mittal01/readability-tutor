@@ -1,0 +1,19 @@
+{
+  "topic": "[TEXT_TOPIC]",
+  "grade": "Story shall be good for child in grade [GRADE].",
+  "locale": "Locale of the story shall be [LANGUAGE] [LOCALE].",
+  "max_words": "Maximum words in the story shall be [MAX_WORDS].",
+  "max_syllables": "Maximum syllables in the words shall be [MAX_SYLLABLES].",
+  "vocab_words": "Create [VOCAB_WORDS] vocab words maximum.",
+  "site_words": "Create [SITE_WORDS] sight words maximum.",
+  "max_questions": "Create minimum 1 question per page. Do not create more than [MAX_QUESTIONS] questions in total on all pages.",
+  "instructions": "[INSTRUTIONS]",
+  "title": "[TITLE]",
+  "genres": "[GENRES]",
+  "ar_score": "[AR_SCORE]",
+  "lexile_min": "[LEXILE_MIN]",
+  "lexile_max": "[LEXILE_MAX]",
+  "senteces_per_page": "Story shall be broken into pages and each page shall have maximum [SENTENCES_PER_PAGE] sentences.",
+  "least_page": "There shall be at least 5 pages.",
+  "min_max_per_page": "Story shall be broken into [minimum MIN_PAGES & maximum MAX_PAGES] pages."
+}

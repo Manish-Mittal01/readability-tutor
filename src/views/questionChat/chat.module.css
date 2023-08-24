@@ -1,0 +1,87 @@
+.main {
+  /* background-image: url("/img/question-chat/chat-background.jpg"); */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 86vh;
+}
+
+.startQuestionWrapper {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.startQuestionWrapper > input {
+  width: 100%;
+  height: 36px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding-left: 6px;
+}
+
+.questionLoader {
+  width: 80px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px 1rem 1rem;
+  height: 41px;
+}
+
+.questionLoader > div {
+  padding: 0.7rem;
+}
+
+.speakerIcon {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background-color: #ffba00;
+  border-radius: 50%;
+  padding: 4px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.micIcon {
+  display: flex;
+  justify-content: center;
+}
+
+.micOffText {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 12px;
+  color: #19b3f8;
+}
+
+.micIcon > svg {
+  font-size: 56px;
+  background-color: #bbbbbb;
+  border-radius: 50%;
+  padding: 8px;
+  color: #fff;
+}
+
+.recordingIcon > div > svg {
+  font-size: 56px;
+  background-color: #bbbbbb;
+  border-radius: 50%;
+  padding: 8px;
+  color: #fff;
+  background-color: #2fc0b5;
+}
+.page3 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.finalPage {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
